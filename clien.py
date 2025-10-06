@@ -91,6 +91,16 @@ def finalizar(sock):
     else:
         print(resp)
 
+def mostrar_todos(sock):
+    enviar(sock, "MOSTRAR_TODOS")
+    resp = recibir(sock)
+    if isinstance(resp, list):
+        print("\n--- TODOS LOS PRODUCTOS DISPONIBLES ---")
+        for p in resp:
+            print(f"[{p['id']}] {p['nombre']} - {p['marca']} - {p['tipo']} - ${p['precio']} (stock {p['stock']})")
+    else:
+        print(resp)
+
 
 def main():
     host = input("IP del servidor: ")
@@ -114,6 +124,7 @@ def main():
                 print("Opción inválida")
 
         # Menú principal
+        # Menú principal
         while True:
             print("\n--- MENÚ ---")
             print("1. Buscar producto")
@@ -123,6 +134,7 @@ def main():
             print("5. Eliminar del carrito")
             print("6. Finalizar compra")
             print("7. Salir")
+            print("8. Mostrar todos los productos")  # 🔹 Nueva opción
 
             op = input("> ")
             if op == "1":
@@ -141,6 +153,8 @@ def main():
                 enviar(sock, "EXIT")
                 print(recibir(sock))
                 break
+            elif op == "8":
+                mostrar_todos(sock)  # 🔹 Llama la nueva función
             else:
                 print("Opción inválida.")
 

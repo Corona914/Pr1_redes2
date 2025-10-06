@@ -304,6 +304,10 @@ def manejar_cliente(conn, addr):
                 elif comando == "EXIT":
                     conn.sendall(b'DESCONECTADO')
                     break
+# ---------- MOSTRAR TODOS LOS PRODUCTOS ----------
+                elif comando == "MOSTRAR_TODOS":
+                    productos = cargar_productos()
+                    conn.sendall(json.dumps(productos).encode())
 
                 else:
                     conn.sendall(b'COMANDO_NO_RECONOCIDO')
