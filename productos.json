@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "nombre": "Laptop HP Pavilion",
+        "marca": "HP",
+        "tipo": "Computadora",
+        "precio": 12000,
+        "stock": 5
+    },
+    {
+        "id": 2,
+        "nombre": "Mouse Logitech MX Master 3",
+        "marca": "Logitech",
+        "tipo": "Accesorio",
+        "precio": 1800,
+        "stock": 20
+    },
+    {
+        "id": 3,
+        "nombre": "Monitor Samsung Odyssey G5",
+        "marca": "Samsung",
+        "tipo": "Pantalla",
+        "precio": 7500,
+        "stock": 10
+    },
+    {
+        "id": 4,
+        "nombre": "Teclado Redragon Kumara K552",
+        "marca": "Redragon",
+        "tipo": "Accesorio",
+        "precio": 700,
+        "stock": 15
+    },
+    {
+        "id": 5,
+        "nombre": "Tablet Lenovo Tab P11",
+        "marca": "Lenovo",
+        "tipo": "Tablet",
+        "precio": 4500,
+        "stock": 8
+    },
+    {
+        "id": 6,
+        "nombre": "MacBook Air M3",
+        "marca": "Apple",
+        "tipo": "Computadora",
+        "precio": 24500,
+        "stock": 7
+    },
+    {
+        "id": 7,
+        "nombre": "Audifonos Sony WH-1000XM5",
+        "marca": "Sony",
+        "tipo": "Audio",
+        "precio": 6500,
+        "stock": 18
+    },
+    {
+        "id": 8,
+        "nombre": "Webcam Logitech C920",
+        "marca": "Logitech",
+        "tipo": "Accesorio",
+        "precio": 1500,
+        "stock": 25
+    },
+    {
+        "id": 9,
+        "nombre": "Impresora Epson EcoTank L3250",
+        "marca": "Epson",
+        "tipo": "Impresora",
+        "precio": 4200,
+        "stock": 12
+    },
+    {
+        "id": 10,
+        "nombre": "Disco Duro Externo Seagate 2TB",
+        "marca": "Seagate",
+        "tipo": "Almacenamiento",
+        "precio": 1300,
+        "stock": 30
+    },
+    {
+        "id": 11,
+        "nombre": "Smartwatch Garmin Forerunner 55",
+        "marca": "Garmin",
+        "tipo": "Accesorio",
+        "precio": 3800,
+        "stock": 9
+    },
+    {
+        "id": 12,
+        "nombre": "iPhone 16 Pro",
+        "marca": "Apple",
+        "tipo": "Celular",
+        "precio": 28500,
+        "stock": 10
+    },
+    {
+        "id": 13,
+        "nombre": "Tarjeta de Video NVIDIA RTX 4070",
+        "marca": "NVIDIA",
+        "tipo": "Componente PC",
+        "precio": 11500,
+        "stock": 6
+    },
+    {
+        "id": 14,
+        "nombre": "Monitor Gamer LG UltraGear 27 pulgadas",
+        "marca": "LG",
+        "tipo": "Pantalla",
+        "precio": 6800,
+        "stock": 11
+    },
+    {
+        "id": 15,
+        "nombre": "Bocina Bluetooth JBL Flip 6",
+        "marca": "JBL",
+        "tipo": "Audio",
+        "precio": 2600,
+        "stock": 22
+    },
+    {
+        "id": 16,
+        "nombre": "Consola Xbox Series X",
+        "marca": "Microsoft",
+        "tipo": "Consola",
+        "precio": 11000,
+        "stock": 9
+    },
+    {
+        "id": 17,
+        "nombre": "SSD Interno Samsung 980 Pro 1TB",
+        "marca": "Samsung",
+        "tipo": "Almacenamiento",
+        "precio": 1900,
+        "stock": 28
+    },
+    {
+        "id": 18,
+        "nombre": "Router WiFi 6 TP-Link Archer AX55",
+        "marca": "TP-Link",
+        "tipo": "Accesorio",
+        "precio": 1600,
+        "stock": 15
+    },
+    {
+        "id": 19,
+        "nombre": "Drone DJI Mini 3",
+        "marca": "DJI",
+        "tipo": "Dron",
+        "precio": 10500,
+        "stock": 7
+    },
+    {
+        "id": 20,
+        "nombre": "Silla Gamer Corsair T3 Rush",
+        "marca": "Corsair",
+        "tipo": "Accesorio",
+        "precio": 5500,
+        "stock": 13
+    }
+]
